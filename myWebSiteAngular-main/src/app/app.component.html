@@ -1,0 +1,23 @@
+
+<header>
+  <ul>
+    <li><a [routerLink]="['/sobre-mi']" [routerLinkActive]="['actived']">sobre mi</a></li>
+    <li><a [routerLink]="['/proyectos']" [routerLinkActive]="['actived']">Proyectos </a> </li>
+    <li ID="logo"> <a href="#"><img src="../assets/img/MH.jpg"> </a></li>
+    <li><a [routerLink]="['/crear-proyecto']" [routerLinkActive]="['actived']">Crear proyecto </a></li>
+    <li><a [routerLink]="['/contacto']" [routerLinkActive]="['actived']">contacto </a></li>
+  </ul>
+</header>
+
+<section id="content">
+  <router-outlet></router-outlet>
+  </section>
+
+
+  
+  <footer>
+  Typescript &copy;
+  </footer>
+
+
+
